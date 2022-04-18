@@ -915,7 +915,7 @@ def test_standard_transformer_with_multiple_feast_with_source(
     config_file.close()
 
     env_vars={
-        "FEAST_REDIS_DIRECT_STORAGE_ENABLED": True, 
+        "FEAST_REDIS_DIRECT_STORAGE_ENABLED": False, 
         "FEAST_REDIS_POOL_SIZE": 1, 
         "FEAST_BIGTABLE_DIRECT_STORAGE_ENABLED": True,
         "FEAST_BIGTABLE_POOL_SIZE": 1,
